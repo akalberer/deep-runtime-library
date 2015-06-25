@@ -1,6 +1,6 @@
 package ch.ntb.inf.deep.runtime.mpc5200;
 
-// Auto generated file (2015-06-05 11:51:02)
+// Auto generated file (2015-06-25 11:34:43)
 
 public interface IphyCoreMpc5200io {
 
@@ -162,4 +162,28 @@ public interface IphyCoreMpc5200io {
 	public static final int CANTXDSR7 = 0x75;
 	public static final int CANTXDLR = 0x78;
 	public static final int CANTXTBPR = 0x79;
+	public static final int CDMFDCR = 0xf0000210;
+	public static final int USBHCREVR = 0xf0001000;
+	public static final int USBHCCTRLR = 0xf0001004;
+	public static final int USBHCCMDSR = 0xf0001008;
+	public static final int USBHCISR = 0xf000100c;
+	public static final int USBHCIER = 0xf0001010;
+	public static final int USBHCIDR = 0xf0001014;
+	public static final int USBHCHCCAR = 0xf0001018;
+	public static final int USBHCPCEDR = 0xf000101c;
+	public static final int USBHCCHEDR = 0xf0001020;
+	public static final int USBHCCCEDR = 0xf0001024;
+	public static final int USBHCBHEDR = 0xf0001028;
+	public static final int USBHCBCED = 0xf000102c;
+	public static final int USBHCDHR = 0xf0001030;
+	public static final int USBHCFIR = 0xf0001034;
+	public static final int USBHCFRR = 0xf0001038;
+	public static final int USBHCFNR = 0xf000103c;
+	public static final int USBHCPSR = 0xf0001040;
+	public static final int USBHCLSTR = 0xf0001044;
+	public static final int USBHCRHDRA = 0xf0001048;
+	public static final int USBHCRHDRB = 0xf000104c;
+	public static final int USBHCRHSR = 0xf0001050;
+	public static final int USBHCRHP1SR = 0xf0001054;
+	public static final int USBHCRHP2SR = 0xf0001058;
 }
