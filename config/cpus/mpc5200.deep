@@ -727,6 +727,12 @@ cpu mpc5200 {
 			addr = MemBaseAddr + 0x210;
 			size = 4;
 		}
+		# CDM Power On Reset Config Register
+		register CDMPORCR {
+			type = IOR;
+			addr = MemBaseAddr + 0x204;
+			size = 4;
+		}
 		# USB control and status partition
 		register USBHCREVR {
 			type = IOR;

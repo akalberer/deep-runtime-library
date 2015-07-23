@@ -1,6 +1,6 @@
 package ch.ntb.inf.deep.runtime.mpc5200;
 
-// Auto generated file (2015-06-25 11:34:43)
+// Auto generated file (2015-07-19 15:48:49)
 
 public interface IphyCoreMpc5200io {
 
@@ -163,6 +163,7 @@ public interface IphyCoreMpc5200io {
 	public static final int CANTXDLR = 0x78;
 	public static final int CANTXTBPR = 0x79;
 	public static final int CDMFDCR = 0xf0000210;
+	public static final int CDMPORCR = 0xf0000204;
 	public static final int USBHCREVR = 0xf0001000;
 	public static final int USBHCCTRLR = 0xf0001004;
 	public static final int USBHCCMDSR = 0xf0001008;
