@@ -231,7 +231,7 @@ operatingsystem ntbSTS {
     }
     
     exception {
-    	class = "ch/ntb/inf/deep/runtime/mpc5200/Interrupt";
+    	class = "ch/ntb/inf/deep/runtime/mpc5200/InterruptMpc5200io";
     	condition = cputype:mpc5200;
     	method interrupt {
     		attributes = exchnd;
