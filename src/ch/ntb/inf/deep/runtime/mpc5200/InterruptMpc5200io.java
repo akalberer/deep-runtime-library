@@ -59,10 +59,17 @@ public class InterruptMpc5200io extends PPCException implements IphyCoreMpc5200i
 
 	static void interrupt() {
 //		int status = US.GET4(ICTLPISAR);
-		US.GET4(ICTLPISAR);
+//		US.GET4(ICTLPISAR);
 //		int intNr = status;	// get the
-		perInts[6].action();
-		nofInterrupts++;
+//		perInts[6].action();
+//		nofInterrupts++;
+		
+		// if peripheral interrupt
+		int status = US.GET4(ICTLPISAR);
+		int perNr = 21 - Integer.numberOfTrailingZeros(status);
+		perInts[perNr].action();
+		
+		
 //		int pendInt = US.GET2(SIPEND);
 //		int i = 0;	// find highest bit
 //		while (pendInt != 0) {
